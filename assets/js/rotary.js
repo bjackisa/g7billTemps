@@ -47,7 +47,7 @@
   });
 
   /* ── Public site: navigation drawer ─────────────────────────────── */
-  var mq = w.matchMedia ? w.matchMedia('(max-width: 1099px)') : { matches: false };
+  var mq = w.matchMedia ? w.matchMedia('(max-width: 1199px)') : { matches: false };
   function setNav(open) {
     body.classList.toggle('rt-nav-open', open);
     $$('[data-rt-nav-toggle]').forEach(function (b) { b.setAttribute('aria-expanded', open ? 'true' : 'false'); });
