@@ -1,0 +1,1 @@
+<button type="button" class="btn btn-xs rt-btn-icon #C# tooltips" onclick="location.href='#LINK#';" data-container="body" data-placement="top" data-original-title="#TITLE#" aria-label="#TITLE#"><i class="fas fa-check"></i></button>

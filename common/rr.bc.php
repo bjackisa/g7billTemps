@@ -1,0 +1,1 @@
+<label class="rt-check rt-bulk-check"><input type="checkbox" name="id[]" value="#ID#" id="bulk_select_id" class="m-checkable" onchange="showMe('_bulk_tools_')"><span class="sr-only">Select</span></label>

@@ -1,0 +1,1 @@
+<div class="rt-page-title"><div><span class="rt-eyebrow">Voices</span><h1>Real testimonials</h1><p class="rt-muted">Your experience is very important to us. We are honoured to be our community's choice.</p></div></div>

@@ -1,0 +1,8 @@
+/* =====================================================================
+   ROTARY — per-club overrides
+   The template's look lives in css/rotary.css. Put club-specific
+   tweaks here (e.g. a different accent colour) so upgrades to
+   rotary.css never overwrite them. Example:
+
+   :root { --rt-gold: #F7A81B; --rt-royal: #17458F; }
+   ===================================================================== */

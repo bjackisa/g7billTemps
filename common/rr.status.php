@@ -1,0 +1,1 @@
+{if $state}<span class="label label-success rt-switch-pill is-on"><i class="fas fa-toggle-on"></i> #VALUE#</span>{else}<span class="label label-danger rt-switch-pill is-off"><i class="fas fa-toggle-off"></i> #VALUE#</span>{/if}
