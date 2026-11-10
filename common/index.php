@@ -13,7 +13,7 @@
     <div class="rt-utility-left">
       <span class="rt-motto">Service Above Self</span>
       {if E::V("system:configs:design:header:phone") and (!empty($config.toll_free_phone) or !empty($config.companyphone))}
-      <span>{if !empty($config.toll_free_phone)}<i class="fas fa-phone-alt"></i>{$LANG.TOLL_FREE}: <a href="tel:[[CTF]]">[[CTF]]</a>{else}<i class="fas fa-phone-alt"></i>{$LANG.HOTLINE}: <a href="tel:[[CP]]">[[CP]]</a>{/if}</span>
+      <span>{if !empty($config.toll_free_phone)}<i class="fas fa-phone-alt"></i>{$LANG.TOLL_FREE}: <a href="tel:{$config.toll_free_phone|replace:' ':''}">{$config.toll_free_phone}</a>{else}<i class="fas fa-phone-alt"></i>{$LANG.HOTLINE}: <a href="tel:{$config.companyphone|replace:' ':''}">{$config.companyphone}</a>{/if}</span>
       {/if}
       {if !empty($config.salesmail)}<span class="rt-hide-sm"><i class="far fa-envelope"></i><a href="mailto:{$config.salesmail}">{$config.salesmail}</a></span>{/if}
     </div>
